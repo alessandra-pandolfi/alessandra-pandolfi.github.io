@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio di Anna Pandap - Designer</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            background-color: #fdfdfd;
+            color: #333;
+        }
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: .5rem;
+            font-size: 1.2rem;
+            color: #ccc;
+        }
+        main {
+            max-width: 900px;
+            margin: auto;
+            padding: 2rem 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #eee;
+            padding-bottom: .3rem;
+        }
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        .card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            overflow: hidden;
+            transition: transform 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            display: block;
+        }
+        .card-content {
+            padding: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            font-size: .9rem;
+            color: #777;
+        }
+        a {
+            color: #0077ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anna Pandap</h1>
+        <p>Designer Grafica & UX/UI</p>
+    </header>
+    <main>
+        <section>
+            <h2>Chi sono</h2>
+            <p>Ciao! Sono Anna, una designer appassionata di estetica, funzionalità e storytelling visivo. Aiuto aziende e creativi a dare vita a progetti che lasciano il segno.</p>
+        </section>
+        
+        <section>
+            <h2>Progetti</h2>
+            <div class="projects">
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x250" alt="Progetto 1">
+                    <div class="card-content">
+                        <h3>Brand Identity</h3>
+                        <p>Logo e immagine coordinata per startup innovativa.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x250" alt="Progetto 2">
+                    <div class="card-content">
+                        <h3>UX/UI App Mobile</h3>
+                        <p>Design intuitivo e accessibile per app di fitness.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://via.placeholder.com/400x250" alt="Progetto 3">
+                    <div class="card-content">
+                        <h3>Illustrazione Digitale</h3>
+                        <p>Serie di artwork per campagna social creativa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Contatti</h2>
+            <p>📧 <a href="mailto:annapandap@email.com">annapandap@email.com</a></p>
+            <p>🔗 <a href="https://www.behance.net/" target="_blank">Behance</a> | 
+               <a href="https://www.instagram.com/" target="_blank">Instagram</a> | 
+               <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        © 2025 Anna Pandap. Tutti i diritti riservati.
+    </footer>
+</body>
+</html>
