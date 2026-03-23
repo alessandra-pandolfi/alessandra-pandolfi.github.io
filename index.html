@@ -7,13 +7,16 @@
   <link rel="stylesheet" href="styles2.css" />
 </head>
 
-<body>
   <body class="home">
 
     <header class="topbar">
       <div class="name">&#10209; Alessandra Pandolfi </div>
        <div class="name"> &#10209; Graphic & Social designer
       </div>
+      <div class="name contact">
+      <a href="#" id="contactBtn">Contact me here! &#9786;</a>
+      </div>
+     </div>
     </header>
   
     <main class="hero">
@@ -27,12 +30,39 @@
   
     <div class="info">
       <div class="links">
-        <a class="name" href="https://alessandrapandolfi.cargo.site/">→ Design Portfolio </a>
-        <a class="name" href="#">→ Research </a>
-        <a class="name" href="info.html">→ On-going projects </a>
-        <a class="name" href="info.html">→ Social media </a>
-      </div>
+        <a class="name project-link" data-project="portfolio">→ Design Work</a>
+        <a class="name project-link" data-project="research">→ Research Process</a>
+        <a class="name project-link" data-project="civicity">
+          → Work in progress
+        </a>
+       </div>
     </div>
+  
+    <!-- Ongoing projects -->
+    <div id="project-display"></div>
+  </div>
+
+      <!-- Contact form -->
+ <!-- Popup Form -->
+<div id="contactPopup" class="popup">
+  <div class="popup-content">
+    <span class="close">&times;</span>
+    <h2>Contact me &#9786; </h2>
+    <form action="mailto:pandolfialessandra00@gmail.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="Name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="Email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="Message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+</div>
 
   <!-- Footer -->
   <footer class="footer">
