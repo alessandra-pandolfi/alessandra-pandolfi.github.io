@@ -67,11 +67,8 @@ const words = [
        <div class="project-card">
         <h2> Urgency Toolkit (June 2026)</h2>
         <h4> Exhibiting at New European Bauhuas (Bruxelles, Belgium). 
-        Developed during a two-months residency at Circolo del Design, Sept - Nov 2025.<p>
-          Partecipating as <b>Demo-practice</b>, a social design collective formed with Pheobe Hotopf. 
-          We will develop a collaborative research and design project exploring civic
-          infrastructures, participation, and collective imaginaries.
-        </p>
+        Created during a two-months residency at Circolo del Design, Sept - Nov 2025.<p>
+          Developed through a co-design process with local communities, <i> Urgency Toolkit </i>is a replicable model for shared decision-making and civic transformation.  </p>
   
         <div class="buttons">
           <a href="https://substack.com/@circolodeldesign1" target="_blank">  → Project </a>
