@@ -311,7 +311,7 @@ a:-webkit-any-link {
     }
   
     .hero p {
-      font-size: 7vw; /* slightly larger relative font on small screens */
+      font-size: 9vw; /* slightly larger relative font on small screens */
       line-height: 110%;
       font-family: 'Hanken Grotesk', sans-serif;
       font-weight: 400;
